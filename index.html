@@ -1,0 +1,148 @@
+<!DOCTYPE html>>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name ="viewport"   content="width=divice-width, intitial scale=1,0">
+    <title>GREYCODE</title>
+    <link rel="stylesheet" href="34.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="c:\Users\mufun\Desktop\website\images\logoImg.png" class="logo">
+            
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">blogs</a></li>
+                </ul>
+            </nav>
+            <div class="headerText">
+                <h1>GREYCODE</h1>
+                <h2>Connect, <span>control</span>  and <br/> automate your world</h2>
+                <p>Imagine a world where everyone <br/> and everything is connected.</p>
+            </div>
+        </div>
+    </div>
+    <!-----------------Our Sevices----------------------------->
+    <div id="aboutUs">
+        <div class="container">
+            <div class="aboutUsRow">
+
+                <div class="aboutColumn2">
+                    <h1 class="subTitle">Our Services</h1>
+                    <p>We provide world class, end to end solutions for the Internet of Things (IoT), our Connected Technologies, Sensors and Platforms enable new solutions for government & enterprise customers, energy management & efficiency, smart cities, connected homes , buildings and more.</p>
+                    <div class ="tabServices">
+                        <p class="tabLinks activeLink"onclick="opentab('manufacturing')">Manufacturing</p>
+                        <p class="tabLinks"onclick="opentab('Mining')">Mining,Oil&Gas</p>
+                        <p class="tabLinks"onclick="opentab('SmartBuilding')">Smart Buildings</p>
+                        <p class="tabLinks"onclick="opentab('SmartFarming')">Smart Farming</p>
+                        <p class="tabLinks"onclick="opentab('Tracking')">Tracking</p>
+                    </div>
+                    <div class="tabContent activeTab" id="manufacturing">
+                        <ul>
+                            <li>
+                                <img src="c:\Users\mufun\Desktop\website\images\manufacturing1.png">
+                                <img src="c:\Users\mufun\Desktop\website\images\manufacturing2.png">
+                        
+                                <h1>Lets make cool things</h1>
+                                <p>Today’s Manufacturers are looking to be more agile, enabling factories to switch production faster and drive increased yields at the same time. IoT systems can now provide increased mobility of manufacturing plants as well as fast decision making for more autonomy and increased yields.</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="tabContent" id="Mining">
+                        <ul>
+                            <li>
+                                <img src="c:\Users\mufun\Desktop\website\images\mining1.png">
+                                <img src="c:\Users\mufun\Desktop\website\images\mining2.png">
+                        
+                                <h1>We digging</h1>
+                                <p> Create a complete overview of your entire operation, digitise it, and optimise it. improve safety, ensure efficient loads, reduce operational delays and provide real-time data for accurate decision-making.</p>
+                            </li>
+                        </ul>
+                </div>
+                <div class="tabContent" id="SmartBuilding">
+                    <ul>
+                        <li>
+                            <img src="c:\Users\mufun\Desktop\website\images\smart1.png">
+                            <img src="c:\Users\mufun\Desktop\website\images\smart2.png">
+                    
+                            <h1>Smart Living</h1>
+                            <p>Efficient building management to optimise the use of energy, water, security, space and, ultimately, the people that reside in the buildings</p>
+                        </li>
+                    </ul>
+                    <div class="tabContent" id="SmartFarm">
+                        <ul>
+                            <li>
+                                <img src="c:\Users\mufun\Desktop\website\images\farming1.png">
+                                <img src="c:\Users\mufun\Desktop\website\images\farming2.png">
+                        
+                                <h1>Let's feed the  future</h1>
+                                <p> Today, smart farming has become a reality. With the help of IoT technology and advanced machine learning algorithms, farmers can now monitor the health of their crops.</p>
+                            </li>
+                        </ul>
+                </div>
+                <div class="tabContent" id="tracking">
+                    <ul>
+                        <li>
+                            <img src="c:\Users\mufun\Desktop\website\images\traking1.png">
+                            <img src="c:\Users\mufun\Desktop\website\images\traking2.png">
+                    
+                            <h1>Lets  find your assets</h1>
+                            <p> Track, manage and monitor assets on the move using state-of-the-art devices. maintain complete visibility with predictive analytics, real-time geolocation tracking, and remote management tools.</p>
+                        </li>
+                    </ul>
+            </div>
+            </div>
+
+            </div>
+
+        </div>
+     </div>
+    </div>
+    <!----------------------------contact ------------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="contactRow">
+                <div class="contactLeft">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p>info@greycode.co.za</p>
+                    <p>+27711366783</p>
+
+                    <div class="social-icon">
+                        
+                        
+                    </div>
+                </div>
+                <div class="contactRight">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tabLinks"); 
+        var tabcontents=document.getElementsByClassName("tabContent");
+
+        function opentab(tabName){
+            for(tablink of tabLinks){
+                tablink.classList.remove("activeLink");
+
+            }
+            for(tabcontent of tabcontents){
+                tablink.classList.remove("activeTab");
+        }
+    }
+    </script>
+
+
+
+</body>
+
+</html>
