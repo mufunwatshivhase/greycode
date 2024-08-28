@@ -239,6 +239,22 @@ nav i.fa-solid.fa-bars{
     color: #fafafa;
     text-align: center;
 }
+.content-box .card .button{
+    margin-top: 10%;
+}
+
+
+.content-box .card .button a{
+    background-color: #333;
+    color: aliceblue;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 15px;
+}
+    .content-box .card .button a:hover{
+    background-color: #00bcd4;
+    color: aliceblue;
+    }
 /*.card:hover i,
 .card:hover p{
     color: white;
